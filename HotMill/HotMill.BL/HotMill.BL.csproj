@@ -1,0 +1,135 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85E86E82-E97F-4476-A77D-896210D42C0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kvics.HotMill.BL</RootNamespace>
+    <AssemblyName>HotMill.BL</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\HotMill\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseBL.cs" />
+    <Compile Include="CoilSearchStructure.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="T1800_Extend_01.cs" />
+    <Compile Include="T1800_Extend_02.cs" />
+    <Compile Include="T200.cs" />
+    <Compile Include="T800_Extend_02.cs" />
+    <Compile Include="T_I2_44.cs" />
+    <Compile Include="T800_Extend_01_I2_04.cs" />
+    <Compile Include="T_I2_04.cs" />
+    <Compile Include="T800_Extend_01_I2_10.cs" />
+    <Compile Include="T800_Extend_01_C2_10.cs" />
+    <Compile Include="T_C2_10.cs" />
+    <Compile Include="T800_Extend_01.cs" />
+    <Compile Include="T800_Extend_01_Mapping.cs" />
+    <Compile Include="Gamen.cs" />
+    <Compile Include="T1800_I2_06_1.cs" />
+    <Compile Include="T_I2_06_1.cs" />
+    <Compile Include="NameObjectCollection.cs" />
+    <Compile Include="T1800.cs" />
+    <Compile Include="T1800_I2_06.cs" />
+    <Compile Include="T1800_I2_07.cs" />
+    <Compile Include="T1800_I2_14.cs" />
+    <Compile Include="T1800_I2_45.cs" />
+    <Compile Include="T900.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="T900_I2_06.cs" />
+    <Compile Include="T900_I2_19.cs" />
+    <Compile Include="T1800_Mapping.cs" />
+    <Compile Include="T800_I2_10.cs" />
+    <Compile Include="T800_I2_06.cs" />
+    <Compile Include="T800_I2_07.cs" />
+    <Compile Include="T800_I2_07_10.cs" />
+    <Compile Include="T800.cs" />
+    <Compile Include="T800_Mapping.cs" />
+    <Compile Include="T900_I2_07.cs" />
+    <Compile Include="T900_Mapping.cs" />
+    <Compile Include="T900_C6_07.cs" />
+    <Compile Include="T900_C2_07.cs" />
+    <Compile Include="T900_I4_07.cs" />
+    <Compile Include="T900_C6_14.cs" />
+    <Compile Include="T900_I4_14.cs" />
+    <Compile Include="TConfig.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TMapping.cs" />
+    <Compile Include="TWorker.cs" />
+    <Compile Include="TUser.cs" />
+    <Compile Include="T_C2_07.cs" />
+    <Compile Include="T_C2_R.cs" />
+    <Compile Include="T_C6_07.cs" />
+    <Compile Include="T_C6_14.cs" />
+    <Compile Include="T_C6_R.cs" />
+    <Compile Include="T_I2_07.cs" />
+    <Compile Include="T_I2_06.cs" />
+    <Compile Include="T_I2_10.cs" />
+    <Compile Include="T_I2_14.cs" />
+    <Compile Include="T_I2_19.cs" />
+    <Compile Include="T_I2_45.cs" />
+    <Compile Include="T_I2_R.cs" />
+    <Compile Include="T_I4_07.cs" />
+    <Compile Include="T_I4_14.cs" />
+    <Compile Include="T_I4_R.cs" />
+    <Compile Include="T_R.cs" />
+    <Compile Include="T_R_RowSet.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBAccess\DBAccess.csproj">
+      <Project>{3128BF9A-B5A5-4195-9D8E-B1B54DBE498E}</Project>
+      <Name>DBAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,307 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{600A27D8-8DE6-4A7B-856E-B8C908569115}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kvics.HotMill.Forms</RootNamespace>
+    <AssemblyName>HotMill.Forms</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\HotMill\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormFinishSupport1_V5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinishSupport1_V5.Designer.cs">
+      <DependentUpon>FormFinishSupport1_V5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFinishSupport1_V4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinishSupport1_V4.Designer.cs">
+      <DependentUpon>FormFinishSupport1_V4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFinishSupport2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinishSupport2.Designer.cs">
+      <DependentUpon>FormFinishSupport2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFinishSupport1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinishSupport1.Designer.cs">
+      <DependentUpon>FormFinishSupport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWorker.Designer.cs">
+      <DependentUpon>FormWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPressureDifferenceTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPressureDifferenceTotal.Designer.cs">
+      <DependentUpon>FormPressureDifferenceTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCoilDetailView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCoilDetailView.Designer.cs">
+      <DependentUpon>FormCoilDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPresetCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPresetCalculator.Designer.cs">
+      <DependentUpon>FormPresetCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRollingResultsTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRollingResultsTotal.Designer.cs">
+      <DependentUpon>FormRollingResultsTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetParameter.Designer.cs">
+      <DependentUpon>FormSetParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotMillFormCollection.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormFinishSupport1_V5.resx">
+      <DependentUpon>FormFinishSupport1_V5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinishSupport1_V4.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormFinishSupport1_V4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinishSupport2.resx">
+      <DependentUpon>FormFinishSupport2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinishSupport1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormFinishSupport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWorker.resx">
+      <DependentUpon>FormWorker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPressureDifferenceTotal.resx">
+      <DependentUpon>FormPressureDifferenceTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCoilDetailView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormCoilDetailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPresetCalculator.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPresetCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRollingResultsTotal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormRollingResultsTotal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetParameter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSetParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchCoil.resx">
+      <DependentUpon>FormSearchCoil.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchCoilResult.resx">
+      <DependentUpon>FormSearchCoilResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatabaseConfig.resx">
+      <DependentUpon>FormDatabaseConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RangeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubFormDialog.resx">
+      <DependentUpon>SubFormDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubFormFull.resx">
+      <DependentUpon>SubFormFull.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubFormFullScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SubFormFullScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FormSearchCoil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchCoil.Designer.cs">
+      <DependentUpon>FormSearchCoil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchCoilResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchCoilResult.Designer.cs">
+      <DependentUpon>FormSearchCoilResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatabaseConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatabaseConfig.designer.cs">
+      <DependentUpon>FormDatabaseConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RangeForm.Designer.cs">
+      <DependentUpon>RangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimulationCalculateEventArgs.cs" />
+    <Compile Include="SubFormDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubFormDialog.Designer.cs">
+      <DependentUpon>SubFormDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubFormFull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubFormFull.Designer.cs">
+      <DependentUpon>SubFormFull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubFormFullScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubFormFullScreen.Designer.cs">
+      <DependentUpon>SubFormFullScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Communication\Communication.csproj">
+      <Project>{685644D9-6A7E-46D3-AEAD-88B7FF592870}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{BF532FE4-1FE8-490D-9116-2D1A76420F73}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBAccess\DBAccess.csproj">
+      <Project>{3128BF9A-B5A5-4195-9D8E-B1B54DBE498E}</Project>
+      <Name>DBAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HotMill.BL\HotMill.BL.csproj">
+      <Project>{85E86E82-E97F-4476-A77D-896210D42C0A}</Project>
+      <Name>HotMill.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PInvoke\PInvoke.csproj">
+      <Project>{C2CC4EFD-640C-4F51-BD65-5E5A69C06BE7}</Project>
+      <Name>PInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{DDE4147A-2D3A-428C-BD3E-8D3DF8394C4C}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\net_48_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\net_128_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downarrow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uparrow.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

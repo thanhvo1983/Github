@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Kvics.HotMill.BL.BaseBL" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseBL.cs</FileName>
+      <HashCode>AAAAAAAEABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.GroupSearch" Collapsed="true">
+    <Position X="52.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CoilSearchStructure.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.CoilSearchStructure" Collapsed="true">
+    <Position X="54.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CoilSearchStructure.cs</FileName>
+      <HashCode>BAAAAEAAAAEAAAJEhAAAAAAgArAAAAAAQBEAEQQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.CoilSearchResultStructure" Collapsed="true">
+    <Position X="52.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CoilSearchStructure.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAEAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.Common" Collapsed="true">
+    <Position X="56" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Common.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAIAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.NameObjectCollection" Collapsed="true">
+    <Position X="54.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NameObjectCollection.cs</FileName>
+      <HashCode>QAIAAAAAAAAAAQAACAAABAABAAAAAAAAAAAAAABAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_C2_07" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_C2_07.cs</FileName>
+      <HashCode>gAQCEECAACAAAAQAAAAEAAgkAAEAAQgCAAAAQAQBAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_C2_R" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_C2_R.cs</FileName>
+      <HashCode>AgCgAAAAAAAAAEAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_C6_07" Collapsed="true">
+    <Position X="38.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_C6_07.cs</FileName>
+      <HashCode>gAQCEECAACAAAAQAAAAEAAgkAAEAAQgCAAAAQAQBAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_C6_14" Collapsed="true">
+    <Position X="41" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_C6_14.cs</FileName>
+      <HashCode>AAQikEAOAAAGEAQGAAADAQAARIEBBAAAACAACAAAMBo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_C6_R" Collapsed="true">
+    <Position X="39.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_C6_R.cs</FileName>
+      <HashCode>AgCgAAAAAAAAAEAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I2_06" Collapsed="true">
+    <Position X="23" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I2_06.cs</FileName>
+      <HashCode>AAQACGAAAAAAAAZAAABAAAAAEAEgAAAAgAQQAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I2_07" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I2_07.cs</FileName>
+      <HashCode>gAQCAECAACAAAAQAAAAEAAgkAAEAAQgCAAAAQAQBAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I2_10" Collapsed="true">
+    <Position X="36.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I2_10.cs</FileName>
+      <HashCode>AAQAAEACAAAAAAQAAAAAAAAAAAEgAAQAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I2_14" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I2_14.cs</FileName>
+      <HashCode>AAQigEAOAAAGEAQGAAADAQAARIEBBAAAACAACAAAMBo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I2_19" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I2_19.cs</FileName>
+      <HashCode>AAQAAEACAAAAAAQAAAAAAAAAAAEgAAQAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I2_45" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I2_45.cs</FileName>
+      <HashCode>AAQAAGACAAAAAAQAAABAAAAAAAEgAAQAAQAQAAQBCAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I2_R" Collapsed="true">
+    <Position X="25.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I2_R.cs</FileName>
+      <HashCode>AgCgAAAAAAAAAEAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I4_07" Collapsed="true">
+    <Position X="43.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I4_07.cs</FileName>
+      <HashCode>gAQCAECAACAAAAQAAAAEAAgkAAEAAQgCAAAAQAQBAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I4_14" Collapsed="true">
+    <Position X="45.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I4_14.cs</FileName>
+      <HashCode>AAQigEAOAAAGEAQGAAADAQAARIEBBAAAACAACAAAMBo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_I4_R" Collapsed="true">
+    <Position X="44.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_I4_R.cs</FileName>
+      <HashCode>AgCgAAAAAAAAAEAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_R" Collapsed="true">
+    <Position X="28.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_R.cs</FileName>
+      <HashCode>AAQAAEAAAAIAgAAAkAIAAAACAAEIAIAAAAAAgAAEEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T_R_RowSet" Collapsed="true">
+    <Position X="56" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T_R_RowSet.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T1800" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T1800.cs</FileName>
+      <HashCode>BASgAMISAhShhGSw3QcAa78eBBMETBThBxAAADNkA0A=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T1800_I2_06" Collapsed="true">
+    <Position X="25.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T1800_I2_06.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T1800_I2_07" Collapsed="true">
+    <Position X="34.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T1800_I2_07.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T1800_I2_14" Collapsed="true">
+    <Position X="14" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T1800_I2_14.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T1800_I2_45" Collapsed="true">
+    <Position X="18.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T1800_I2_45.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T1800_Mapping" Collapsed="true">
+    <Position X="57.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T1800_Mapping.cs</FileName>
+      <HashCode>AABAAAAABAAAAAEAEQAAY68eAAAASABhAAAAACFAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T800" Collapsed="true">
+    <Position X="47.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T800.cs</FileName>
+      <HashCode>C1T1EEIAAACAhEQAgDoAoIU6AAGE7sZVA38AgKqsLuA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T800_I2_06" Collapsed="true">
+    <Position X="20.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T800_I2_06.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T800_I2_07" Collapsed="true">
+    <Position X="27.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T800_I2_07.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T800_I2_07_10" Collapsed="true">
+    <Position X="29.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T800_I2_07_10.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T800_I2_10" Collapsed="true">
+    <Position X="36.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T800_I2_10.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T800_Mapping" Collapsed="true">
+    <Position X="52.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T800_Mapping.cs</FileName>
+      <HashCode>AEBVEAAABAAAAAEAAAAAgIQqAAAAYkRFAAAAgKooAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900.cs</FileName>
+      <HashCode>GVS1EEIiAACAhEQAgBMAoIQ6AAGE7tdVQn4AoIjOLmA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_C2_07" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_C2_07.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_C6_07" Collapsed="true">
+    <Position X="38.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_C6_07.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_C6_14" Collapsed="true">
+    <Position X="41" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_C6_14.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_I2_06" Collapsed="true">
+    <Position X="23" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_I2_06.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_I2_07" Collapsed="true">
+    <Position X="32" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_I2_07.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_I2_19" Collapsed="true">
+    <Position X="16.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_I2_19.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_I4_07" Collapsed="true">
+    <Position X="43.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_I4_07.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_I4_14" Collapsed="true">
+    <Position X="45.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_I4_14.cs</FileName>
+      <HashCode>AAQgAEAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.T900_Mapping" Collapsed="true">
+    <Position X="54.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>T900_Mapping.cs</FileName>
+      <HashCode>AEBVEAAiBAAAAAEAAAAAgIQqAAAAwFVVAAAAoIgKAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.TConfig" Collapsed="true">
+    <Position X="50" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TConfig.cs</FileName>
+      <HashCode>AAQAAEAAAAAAgFAAAAIAYAQAABEAAAAAAwAoAAAEBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.TMapping" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TMapping.cs</FileName>
+      <HashCode>CAAAAAAAAAAAgEAAEAIAIAQAABAIAAgAAgACAAAEEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.TUser" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TUser.cs</FileName>
+      <HashCode>AAQAAMACAAAAgEQACQIQAIAACwEAAIAiAgBQAAAEAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.WorkerParameter" Collapsed="true">
+    <Position X="57.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TWorker.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAEAAAAIAQAAAAAAAAAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.WorkerCollection" Collapsed="true">
+    <Position X="56" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TWorker.cs</FileName>
+      <HashCode>AEIAAEAAAAAAAAAECAAABAAAAAAAAAAAAAAAAABQIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.BL.TWorker" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TWorker.cs</FileName>
+      <HashCode>AAygAEAAAAAAgEQAAAIQIAQAABEIAIAgAgAABQAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Kvics.HotMill.BL.RollMaterialSearch" Collapsed="true">
+    <Position X="52.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CoilSearchStructure.cs</FileName>
+      <HashCode>BAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

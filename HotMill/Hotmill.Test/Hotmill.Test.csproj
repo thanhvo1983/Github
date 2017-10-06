@@ -1,0 +1,173 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B04A24B-2775-457C-AA53-F0690F134656}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hotmill.Test</RootNamespace>
+    <AssemblyName>Hotmill.Test</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\HotMill\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackupDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackupDataForm.Designer.cs">
+      <DependentUpon>BackupDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClonerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataClonerForm.Designer.cs">
+      <DependentUpon>DataClonerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BinaryTextConverterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BinaryTextConverterForm.Designer.cs">
+      <DependentUpon>BinaryTextConverterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatabaseConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatabaseConfig.designer.cs">
+      <DependentUpon>FormDatabaseConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BackupDataForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BackupDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BinaryTextConverterForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BinaryTextConverterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataClonerForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataClonerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatabaseConfig.resx">
+      <DependentUpon>FormDatabaseConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestChartForm_V4.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TestChartForm_V4.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TestChartForm_V4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestChartForm_V4.Designer.cs">
+      <DependentUpon>TestChartForm_V4.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Communication\Communication.csproj">
+      <Project>{685644D9-6A7E-46D3-AEAD-88B7FF592870}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Configuration\Configuration.csproj">
+      <Project>{9D28214A-2609-4187-B316-D0FDCD0512D9}</Project>
+      <Name>Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{BF532FE4-1FE8-490D-9116-2D1A76420F73}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBAccess\DBAccess.csproj">
+      <Project>{3128BF9A-B5A5-4195-9D8E-B1B54DBE498E}</Project>
+      <Name>DBAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HotMill.BL\HotMill.BL.csproj">
+      <Project>{85E86E82-E97F-4476-A77D-896210D42C0A}</Project>
+      <Name>HotMill.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HotMill.Forms\HotMill.Forms.csproj">
+      <Project>{600A27D8-8DE6-4A7B-856E-B8C908569115}</Project>
+      <Name>HotMill.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PInvoke\PInvoke.csproj">
+      <Project>{C2CC4EFD-640C-4F51-BD65-5E5A69C06BE7}</Project>
+      <Name>PInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{DDE4147A-2D3A-428C-BD3E-8D3DF8394C4C}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cryptutil.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="MS UI Gothic" Size="9" />
+  <Class Name="DBAccess.Constant" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Constant.cs</FileName>
+      <HashCode>AAAAAAIAAgAAAAAgAAABAQAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBAccess.DBAccessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DBAccessor.cs</FileName>
+      <HashCode>AEaAAEABICAAAAkAAAIAiAAAAAkwwAQAAKhgABRAYEA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DBAccess.Parameter" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Parameter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBAccess.ParameterCollection" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ParameterCollection.cs</FileName>
+      <HashCode>AEIAAEAAAAAAAAAECAAABAAAAAAAAAAAACAAAABQYAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBAccess.SortParameter" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SortParameter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAIAQAAAAAAAAAAAAgAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBAccess.SortParameterCollection" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SortParameterCollection.cs</FileName>
+      <HashCode>AEIAAEAAAAAAAAAECAAABAAAAAAAAAAAAAAAAABQIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBAccess.WhereParameter" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WhereParameter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAQAIAgAAAAAIAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBAccess.WhereParameterCollection" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WhereParameterCollection.cs</FileName>
+      <HashCode>AEIAAEAAAAAAAAAECAAABAAAAAAAAAAAAAAAAABQIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DBAccess.CompareType" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CompareType.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAkYAAIAAAAAAAAAAAQAAAAAQBAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DBAccess.SortType" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SortType.cs</FileName>
+      <HashCode>AAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

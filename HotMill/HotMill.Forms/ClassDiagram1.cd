@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Kvics.HotMill.Forms.FormCoilDetailView" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormCoilDetailView.cs</FileName>
+      <HashCode>/wAAAAAQACAgABAAAACAAYACAAAAAAAAgAAgAQAAADA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.FormDatabaseConfig" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormDatabaseConfig.cs</FileName>
+      <HashCode>AAhAAAAQACAAABUQAACAAEACAAAgALAAEAAEAQINAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.FormPresetCalculator" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormPresetCalculator.cs</FileName>
+      <HashCode>VLQAKQAyAGmyBRADEwiAkQCCBRZAYJBShEIgqUAAAKA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.FormPressureDifferenceTotal" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormPressureDifferenceTotal.cs</FileName>
+      <HashCode>8DAAIAAAACAAEBQACACAAADC8A0EQAAAQKAAQQEfCgI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.FormRollingResultsTotal" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormRollingResultsTotal.cs</FileName>
+      <HashCode>/wAAAAAQACAgABAAAACAAYACAAAAAAAAgAAgCQAAADA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.FormSearchCoil" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormSearchCoil.cs</FileName>
+      <HashCode>/xAAIAAAASAAEBSAWgCAAAAC4AAEQAgAUKQAQQEACrI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.FormSearchCoilResult" Collapsed="true">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormSearchCoilResult.cs</FileName>
+      <HashCode>AAAAgUAAASYAABAEIACBARBCAICYZwAAAAAgAQAgICA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.FormSetParameter" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FormSetParameter.cs</FileName>
+      <HashCode>ECAAAAAQASAAABGAAACAAEBCIAAACAAAkGAAAQEAACI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.HotMillFormCollection" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>HotMillFormCollection.cs</FileName>
+      <HashCode>AEIAAEAAAAAAAAAECAAABAAAAAAAAAAAAAAAAABQIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.MainForm">
+    <Position X="12.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>MainForm.cs</FileName>
+      <HashCode>AAERcAKAFKBQAAAJDASQUQgCAGEFGCgAQEEDASAAAAo=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Kvics.HotMill.Forms.MainForm.PacketArrived_Callback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.SubFormDialog" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SubFormDialog.cs</FileName>
+      <HashCode>AgAAAAAAACAAAAAAAACAAAACAAAAAAQAAAAAAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.SubFormFull" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SubFormFull.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.SubFormFullScreen" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SubFormFullScreen.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAACAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.Properties.Resources" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAhEAAAAQAAAAAIAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.Properties.Settings" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Kvics.HotMill.Forms.HotMillErrorType" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MainForm.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

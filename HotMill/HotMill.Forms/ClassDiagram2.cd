@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Kvics.HotMill.Forms.FormFinishSupport1">
+    <Position X="7.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>FormFinishSupport1.cs</FileName>
+      <HashCode>/73MM2DVDLyQlNTm0wmB/zj/879Fav/1wHqqOf7/M7s=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Kvics.HotMill.Forms.SubFormFullScreen">
+    <Position X="10.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>SubFormFullScreen.cs</FileName>
+      <HashCode>CAAAAAAAACQAAAAAAACAAgACAAAAAAAACAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>
